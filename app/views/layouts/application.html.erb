@@ -5,8 +5,26 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+
+
 </head>
+
 <body>
+    <div id='menu'>
+      <nav>
+        <ul>
+          <li><span id='home-button'>| Overview | </span> </li>
+          <li><span id='funding-button'> Loans vs Grants by Year | </span> </li>
+          <li><span id='university-button'> Funded Universities | </span> </li>
+          <li><span id='about-button'> About Us | </span> </li>
+        </ul>
+      </nav>   
+    </div>
+
+    <br style="clear:both;">
 
 <%= yield %>
 
