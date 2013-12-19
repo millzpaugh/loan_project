@@ -74,15 +74,18 @@ var universities = [];
     var data = [
       {
         value: 30,
-        color:"#F7464A"
+        color:"#ADE0A3" 
       },
       {
         value : 50,
-        color : "#E2EAE9"
+        color : "#2F8E31"
       },
     ]
+
+    var options = {  segmentShowStroke : false } 
+
   var ctx = document.getElementById("donut-chart").getContext("2d");
-  new Chart(ctx).Doughnut(data);
+  new Chart(ctx).Doughnut(data, options);
 }
  
 
@@ -91,6 +94,7 @@ var universities = [];
     $('#chart1').hide(); 
     $('#chart2').hide(); 
     $('#all-lvgdonut').hide(); 
+    $('#about').hide(); 
     $('#chart1').addClass('animated fadeInDown').show(); 
   }
 
@@ -101,6 +105,7 @@ var universities = [];
        $('#chart1').hide(); 
        $('#chart2').hide();
        $('#all-lvgdonut').hide(); 
+       $('#about').hide(); 
        $('#chart1').addClass('animated fadeInDown').show()
     }); 
 
@@ -108,14 +113,24 @@ var universities = [];
        $('#chart1').hide(); 
        $('#chart2').hide(); 
        $('#all-lvgdonut').hide(); 
+       $('#about').hide(); 
        $('#all-lvgdonut').addClass('animated fadeInDown').show(); 
     });
 
     $('#university-button').on("click", function(){
        $('#chart1').hide(); 
        $('#chart2').hide(); 
+       $('#about').hide(); 
        $('#all-lvgdonut').hide(); 
        $('#chart2').addClass('animated fadeInDown').show()
+    }); 
+
+    $('#about-button').on("click", function(){
+       $('#chart1').hide(); 
+       $('#chart2').hide(); 
+       $('#all-lvgdonut').hide(); 
+       $('#about').hide(); 
+       $('#about').addClass('animated fadeInDown').show()
     }); 
   }
 

@@ -12,17 +12,39 @@
 
   <div id="all-lvgdonut" class="graph">
     <h2>Percentage of Loans vs Grants By Year</h2> 
-      <ul id="donuts"> 
+    <div id="legend">
+      <div id="loan-legend">
+        <h4>Loans</h4>
+        <svg width="15" height="15">
+            <rect width="15" height="15" fill="#2F8E31">
+            </rect>  
+        </svg> 
+      </div>
+      <div id="grant-legend">
+       <h4>Grants</h4>
+       <svg width="15" height="15">
+            <rect width="15" height="15" fill="#ADE0A3">
+            </rect> 
+        </svg> 
+      </div>
+     </div> 
+
+    <br style="clear:both;">
+
         <li id="2002" class="donut">
           <h3>2002</h3>
-          <canvas id="donut-chart" width="200" height="200">
+          <canvas id="donut-chart" width="100" height="100">
           </canvas>
         </li> 
-      </ul>  
     </li>
   </div> 
 
-
+  <div id="about">
+    <h2>About</h2>
+    <h3>I'm an aspiring <span class="em">developer</span> who's spent the last three months in front a computer screen. While scouring the <span class="em">Department of Education's site</span> at a previous job, I came across <span class="em"><%= link_to 'this dataset.', "http://studentaid.ed.gov/about/data-center/student/title-iv" %></span> Considering the enormous cost of education and our generation's burden of never-ending student loans, I thought  it would be useful to visualize this information. And really, almost anything would be better than the incomprehensible spreadsheets where this data originated.</h3>
+    <br>
+    <h3>This project was developed at <span class="em">General Assembly</span> as part of the Web Development Immersive Program. </h3>
+  </div> 
 <!-- <div class="chart2">
   <h2>Number of Schools Funded by Year</h2> 
   <canvas id="intro-chart2" width="700" height="700">
