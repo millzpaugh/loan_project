@@ -8,7 +8,6 @@
 
 Total.destroy_all 
 
-Total.create(year: 2002, loans: 10, grants: 500, universities: 1000)
 Total.create(year: 2003, loans: 20, grants: 600, universities: 2000)
 Total.create(year: 2004, loans: 30, grants: 700, universities: 3000)
 Total.create(year: 2005, loans: 40, grants: 800, universities: 4000)

@@ -12,7 +12,6 @@ body {
   overflow: hidden;
   color: white;
   font-family: 'Pathway Gothic One', sans-serif;
-
 }
 
 div#intro{
@@ -23,8 +22,14 @@ div#intro{
   font-size: 24px; 
 }
 
-li{
+#row1{
+  display:inline;
+}
+
+ul, li{
   list-style-type: none;
+  display:inline;
+  float:left;
 }
 
 li.nav:hover{
