@@ -1,0 +1,201 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body {
+  background: url('chalkboard_edited .jpg') no-repeat top center;
+/*  background-size: cover; */
+  background-size:cover; 
+}
+
+#wrapper{
+  float: center;   
+}
+
+#menu{
+  overflow: hidden;
+  color: white;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+div#intro{
+  margin-top: 175px; 
+  text-align:center;
+  color:white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24px; 
+}
+
+#row1{
+  display:inline;
+}
+
+ul, li{
+  list-style-type: none;
+  display:inline;
+  float:left;
+}
+
+li.nav:hover{
+  color:orange;
+}
+
+span.f-num{
+  color:orange;
+  font-size:30px;
+}
+
+span.gkey{
+  color:#ADE0A3;
+}
+
+span.em{
+  color:orange;
+  font-size:24px;
+}
+
+a {
+  color:orange;
+  font-size:24px;
+  text-decoration:none;
+}
+
+p.fact{
+  margin:40px auto;
+}
+
+h2{
+  font-family: 'Alegreya Sans', sans-serif;
+  color:orange;
+}
+
+h3{
+  font-family: 'Alegreya Sans', sans-serif;
+  color:white;
+}
+
+h4{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px; 
+  color: white;
+}
+
+#legend{
+  margin-left: 550px; 
+  width:200px;
+}
+
+#loan-legend{
+  float:left;
+}
+
+#grant-legend{
+  float:right;
+}
+
+
+.graph{
+  text-align:center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float:center; 
+}
+
+#about{
+  text-align:left;
+  margin-top: 100px;
+  margin-left: 300px; 
+  margin-bottom: 100px;
+  float:center; 
+  width:600px;
+}
+
+nav {
+  float: right;
+  padding: 2em;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+}
+
+/*.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+*/
+
+/* Intro animation */
+
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  } 100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
