@@ -1,6 +1,8 @@
 var loans = []; 
 var grants = [];  
 var years = []; 
+var gp = []; 
+var lp = []; 
 var universities = []; 
 
 // Retrieves data from database for charts 
@@ -16,6 +18,8 @@ function getTotals() {
       loans.push(l)
       grants.push(g)
       years.push(y)
+      gpercent.push(gp)
+      lpercent.push(lp)
       universities.push(u)
     }
     createTotalsGraph(); 
