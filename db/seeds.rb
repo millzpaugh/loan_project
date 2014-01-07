@@ -8,10 +8,10 @@
 
 Total.destroy_all 
 
-Total.create(year: 2003, loans: 11, grants: .4, universities: 1120)
-Total.create(year: 2004, loans: 14, grants: .5, universities: 1092)
-Total.create(year: 2005, loans: 17, grants: .6, universities: 1088)
-Total.create(year: 2006, loans: 19, grants: .9, universities: 1083)
+Total.create(year: 2003, loans: 11, grants: 0.4, universities: 1120)
+Total.create(year: 2004, loans: 14, grants: 0.5, universities: 1092)
+Total.create(year: 2005, loans: 17, grants: 0.6, universities: 1088)
+Total.create(year: 2006, loans: 19, grants: 0.9, universities: 1083)
 Total.create(year: 2007, loans: 21, grants: 1.1, universities: 1091)
 Total.create(year: 2008, loans: 25, grants: 1.2, universities: 1387)
 Total.create(year: 2009, loans: 29, grants: 1.6, universities: 2369)
