@@ -1,1 +1,1 @@
-This project is available on Heroku <a href='http://obscure-badlands-3898.herokuapp.com/'>here</a>. 
+This project is available on Heroku here: http://obscure-badlands-3898.herokuapp.com/ 
