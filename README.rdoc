@@ -1,3 +1,3 @@
-This project was my capstone project for General Assembly's Web Development Immersive Program. It uses static data from the Department of Education's Student Loan & Grant Data to create visualizations from the charts.js library. 
+This was my capstone project for General Assembly's Web Development Immersive Program. It uses static data from the Department of Education's Student Loan & Grant Data to create visualizations from the charts.js library. 
 
 This project is available on Heroku here: http://obscure-badlands-3898.herokuapp.com/ 
